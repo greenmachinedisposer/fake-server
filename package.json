@@ -1,0 +1,14 @@
+{
+  "name": "fake-server",
+  "version": "1.0.0",
+  "description": "Fake server for API requests",
+  "main": "index.js",
+  "scripts": {
+    "json:server": "json-server --watch database/db.json"
+  },
+  "author": "Jurol James Cabaluna",
+  "license": "ISC",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
