@@ -4,11 +4,14 @@
   "description": "Fake server for API requests",
   "main": "index.js",
   "scripts": {
-    "json:server": "json-server --watch database/db.json"
+    "json:server": "json-server --watch database/db.json",
+    "generate:companies" : "json-server fakeGenerators/generateCompanies.js"
   },
   "author": "Jurol James Cabaluna",
   "license": "ISC",
   "dependencies": {
+    "faker": "^4.1.0",
+    "json-server": "^0.12.1",
     "xmlhttprequest": "^1.8.0"
   }
 }
