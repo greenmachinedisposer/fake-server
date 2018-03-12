@@ -1,19 +1,16 @@
 {
-  "partners":[
+  "partners": [
     {
-      "partner_id":1,
-      "partner_name":"Cokaliong Shipping Lines",
-      "email":"cokaliongshipping@gmail.com"
+      "partner_name": "John Rambo",
+      "id": 1
     },
     {
-      "partner_id":2,
-      "partner_name":"CTC Shipping Lines",
-      "email":"ctc@gmail.com"
+      "partner_name": "John Rambo",
+      "id": 2
     },
     {
-      "partner_id":3,
-      "partner_name":"RTC Shipping Lines",
-      "email":"rtc@gmail.com"
+      "partner_name": "John Rambo",
+      "id": 3
     }
   ]
 }
